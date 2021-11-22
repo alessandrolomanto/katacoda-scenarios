@@ -9,5 +9,5 @@ fi
 
 if [ $seconds_sofar -ge 10 ]; then
   echo "Hint: try running the command:"
-  echo "curl node01:30080"
+  echo "kubectl run nginx-xh78 --image=nginx:alpine"
 fi
