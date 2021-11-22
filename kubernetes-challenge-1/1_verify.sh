@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep app-env -ie 'pod/nginx-xh78'
+kubectl get po nginx-xh78 -n default | grep -ie 'Running\|Completed'
