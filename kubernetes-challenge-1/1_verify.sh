@@ -1,3 +1,2 @@
 #!/bin/bash
-
-kubectl get po nginx-xh78 -n default | grep -ie 'Running\|Completed'
+kubectl get pod nginx-xh78 -o custom-columns=:metadata.name --no-headers | grep -ie 'nginx-xh78'
