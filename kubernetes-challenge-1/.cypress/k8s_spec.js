@@ -15,7 +15,7 @@ describe('Kubernetes Challenge', () => {
 
     cy.terminalNotShouldContain('Task 2');
 
-    cy.terminalType('curl "node01:30080?cmd=env" > /root/app-env');
+    cy.terminalType('kubectl get pods -o=name --all-namespaces | grep nginx-xh78 > /root/app-env');
 
     cy.terminalShouldContain('Task 2');
 
