@@ -1,19 +1,19 @@
 {
   "type": "challenge@0.8",
-  "title": "Challenge Example - Kubernetes",
+  "title": "Challenge Example - Kubernetes Pod",
   "description": "",
-  "difficulty": "Advance",
-  "time": "60 minutes",
+  "difficulty": "Easy",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Task 1 - Output env",
+        "title": "Task 1 - Create Pod ",
         "text": "1_task.md",
         "verify": "1_verify.sh",
         "hint": "1_hint.sh"
       },
       {
-        "title": "Task 2 - Extract app.js",
+        "title": "Task 1 - Create Pod with Label",
         "text": "2_task.md",
         "verify": "2_verify.sh"
       }

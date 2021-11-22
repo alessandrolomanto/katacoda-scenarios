@@ -1,1 +1,1 @@
-Save the source code of the application's `app.js` to `/root/app.js`.
+Crea un altro pod dal nome aaa-bbb-797 che abbia un label environment=production.
